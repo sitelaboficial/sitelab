@@ -2026,6 +2026,12 @@ footer {
   align-items: center; 
   gap: 7px; }
 
+  .footer-logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
 [data-theme="dark"] .footer-logo { 
   color: var(--text); }
 .footer-links { 
